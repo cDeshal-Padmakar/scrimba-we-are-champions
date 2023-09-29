@@ -1,0 +1,166 @@
+body {
+    background: #1B1924;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    width: 320px;
+    margin: 20px auto;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+h1 {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+#endorsement-input-text {
+    box-sizing: border-box;
+    width: 310px;
+    height: 120px;
+    padding: 10px 15px;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    resize: none;
+}
+
+#to-from-container {
+    width: 310px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.to-from-input {
+    box-sizing: border-box;
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    background: #444059;
+    border: none;
+    padding: 5px 8px;
+    /* text */
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#publish-btn {
+    border-radius: 8px;
+    background: #28A9F1;
+    width: 310px;
+    height: 60px;
+    color: #04131C;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+h2 {
+    margin: 20px auto 15px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    user-select: none;
+
+}
+
+ul li {
+    padding: 10px 15px;
+    background: #fff;
+    color: #1B1924;
+    text-align: left;
+}
+    
+
+ul li p {
+    margin: 0px;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.like-span-container {
+    float: right;
+    user-select: none;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#mid {
+    margin: 12px 0px 8px;
+}
+
+
+
+@media screen and (min-width: 800px) 
+{
+    body {
+        margin-top: 90px;
+        width: 80%;
+    }
+    #container{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    #endorsement-input-text {
+        box-sizing: border-box;
+        width: 450px;
+        height: 150px;
+    }
+
+    #to-from-container {
+        width: 450px;
+    }
+
+    .to-from-input {
+        height: 50px;
+    }
+
+    #publish-btn {
+        width: 450px;
+    }
+
+    #endorsement-container {
+        width: 70%;
+    }
+    
+}
+
+
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
