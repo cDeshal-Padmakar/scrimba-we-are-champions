@@ -55,7 +55,7 @@ function appendCurrentItemToEndorsementList(item)
         `
     
     // like
-    newListEl.addEventListener("dblclick", function() {
+    newListEl.addEventListener("click", function() {
         if(likeArray.includes(`${user}`))
         {
             const userIndexInLikeArray = likeArray.indexOf(`${user}`)
