@@ -161,6 +161,10 @@ ul li p {
     #endorsement-container {
         width: 70%;
     }
+
+    ul li {
+        border-radius: 4px;
+    }
     
 }
 
