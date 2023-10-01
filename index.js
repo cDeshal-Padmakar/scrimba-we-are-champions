@@ -47,12 +47,25 @@ function appendCurrentItemToEndorsementList(item)
     let likeArray = JSON.parse(itemObject.like)
     
     let newListEl = document.createElement("li")
-    newListEl.innerHTML = 
+    if(likeArray.includes(`${user}`))
+    {
+        newListEl.innerHTML = 
+        `
+            <p class="bold">To ${itemObject.to}</p>
+            <p id="mid">${itemObject.endorsement}</p>
+            <p class="bold">From ${itemObject.from}<span class="like-span-container">❤️ ${likeArray.length}</span></p>
+        `
+    }
+    else
+    {
+        newListEl.innerHTML = 
         `
             <p class="bold">To ${itemObject.to}</p>
             <p id="mid">${itemObject.endorsement}</p>
             <p class="bold">From ${itemObject.from}<span class="like-span-container">🖤 ${likeArray.length}</span></p>
         `
+    }
+    
     
     // like
     newListEl.addEventListener("click", function() {
