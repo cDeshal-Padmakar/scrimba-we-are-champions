@@ -98,6 +98,10 @@ ul li {
     color: #1B1924;
     text-align: left;
 }
+
+ul li:hover {
+    cursor: pointer;
+}
     
 
 ul li p {
